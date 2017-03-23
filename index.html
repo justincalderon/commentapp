@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>CommentMe</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-3">
+          <h1>Leave a comment</h1>
+          <form>
+            <div class="form-group">
+              <input type="text" id="username" placeholder="Username" class="form-control">
+            </div>
+            <div class="form-group">
+              <textarea name="name" id="comment" rows="8" placeholder="Comment" class="form-control"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="button" onclick="commentArea()" class="btn btn-primary btn-md">Post!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
