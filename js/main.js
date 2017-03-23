@@ -4,7 +4,7 @@ function commentSection() {
   var comment = document.getElementById("comment").value
   console.log(username + " " + comment);
   // create a text node for values
-  var user = document.createTextNode("User: " + username)
+  var user = document.createTextNode(username)
   var text = document.createTextNode(comment)
   console.log("Alias is " + user);
   console.log("Comment is " + text);
